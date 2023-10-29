@@ -22,7 +22,7 @@ function checkAnswer() {
     var angryGif = document.getElementById('angryGif');
     var kissGif = document.getElementById('kissGif');
 
-    if (answer === 'blue') {
+    if (answer === 'lightning') {
         document.getElementById('question').style.display = 'none';
         document.getElementById('audioPlayer').style.display = 'block';
         kissGif.style.display = 'block';
